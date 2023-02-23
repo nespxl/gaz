@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 20px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main {
+    width: 778px;
+    height: 561px;
+}
+
+.tooltip {
+    position: relative;
+    width: 191px;
+    border: none;
+    background: none;
+    background-color: none;
+    outline: none;
+    z-index: 10;
+}
+
+.tooltipArrow {
+    position: absolute;
+    top: 50%;
+    left: -8.9%;
+    width: 12px;
+    height: 12px;
+    background: white;
+    border: green 1px solid;
+    border-left-color: white;
+    border-bottom-color: white;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    transform: rotate(45deg);
+}
+
+.tooltipTitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 17px;
+    color: #002033;
+}
+
+.containerInProgramm {
+    display: flex;
+    margin-bottom: 9px;
+}
+
+.inProgrammTitle {
+    margin-right: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 120%;
+    color: #002033;
+}
+
+.inProgrammPercent,
+.inProgrammQuantity {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    color: #002033;
+}
+
+.inProgrammPercent,
+.line {
+    margin-right: 3px;
+}
+
+.line {
+    height: 15px;
+    width: 2px;
+    background: #002033;
+}
+
+.containerProject {
+    display: flex;
+    align-items: center;
+}
+
+.projectTitle {
+    margin-right: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #002033;
+    margin-bottom: 8px;
+}
+
+.projectQuatity {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    color: #002033;
+    margin-bottom: 9px;
+}
+
+.projectCircle {
+    margin-bottom: 9px;
+    padding: 6px;
+    margin-right: 8px;
+    border-radius: 100%;
+}
