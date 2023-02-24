@@ -205,19 +205,33 @@ const option = {
             stack: 'AdTrue',
             data: prog1,
             color: trueItColor,
+            backgroundStyle: {
+                borderColor: 'none'
+            },
         },
         {
             name: 'В программе ЦП П.',
             type: 'bar',
             stack: 'AdTrue',
             data: prog2,
-            color: falseItColor
+            color: falseItColor,
+            backgroundStyle: {
+                borderColor: 'none'
+            },
         },
         {
             type: 'bar',
             stack: 'AdTrue',
             data: prog5,
             color: 'transparent',
+            tooltip: {
+                formatter: function(param) {
+                    return ''
+                },
+            },
+            backgroundStyle: {
+                borderColor: 'none'
+            },
             label: {
                 formatter: function(param) {
                     const index = param.dataIndex
@@ -238,19 +252,30 @@ const option = {
             stack: 'AdFalse',
             data: prog3,
             color: trueOutColor,
+            backgroundStyle: {
+                borderColor: 'none'
+            },
         },
         {
             name: 'Вне программ ЦП П.',
             type: 'bar',
             stack: 'AdFalse',
             data: prog4,
-            color: falseOutColor
+            color: falseOutColor,
+            backgroundStyle: {
+                borderColor: 'none'
+            },
         },
         {
             type: 'bar',
             stack: 'AdFalse',
             data: prog5,
             color: 'transparent',
+            tooltip: {
+                formatter: function(param) {
+                    return ''
+                },
+            },
             label: {
                 formatter: function(param) {
                     const index = param.dataIndex

@@ -27,21 +27,6 @@ body {
     z-index: 10;
 }
 
-.tooltipArrow {
-    position: absolute;
-    top: 50%;
-    left: -8.9%;
-    width: 12px;
-    height: 12px;
-    background: white;
-    border: green 1px solid;
-    border-left-color: white;
-    border-bottom-color: white;
-    border-top-color: transparent;
-    border-right-color: transparent;
-    transform: rotate(45deg);
-}
-
 .tooltipTitle {
     font-style: normal;
     font-weight: 700;
